@@ -18,19 +18,8 @@
     font-size: 1rem;
   }
   button {
-    background-color: transparent;
-    padding: 5px 10px;
-    border: none;
-    outline: none;
-    border-radius: var(--border-radius);
-    box-shadow: lightgray 3px 3px 7px;
     margin-right: 20px;
     font-size: 0.875rem;
-    font-weight: 500;
-    &:active {
-      transform: translate(1px, 1px);
-      box-shadow: lightgray 0 0 5px;
-    }
   }
   
 }
