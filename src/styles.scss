@@ -12,14 +12,20 @@ body {
 button {
   --border-radius: 0.75rem;
   background-color: transparent;
-    padding: 5px 10px;
-    border: none;
-    outline: none;
-    border-radius: var(--border-radius);
-    box-shadow: lightgray 3px 3px 7px;
-    font-weight: 500;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius);
+  box-shadow: lightgray 3px 3px 7px;
+  font-weight: 500;
     &:active {
       transform: translate(1px, 1px);
       box-shadow: lightgray 0 0 5px;
     }
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 0;
 }
