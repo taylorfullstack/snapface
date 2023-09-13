@@ -1,13 +1,17 @@
 .landing-block {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: grid;
+  gap: 1rem;
+  padding-bottom: 1rem;
 }
 
 .landing-links {
   width: 100%;
   text-align: center;
+}
+
+img {
+  max-width: 40%;
+  margin-inline: auto;
 }
 
 button {
